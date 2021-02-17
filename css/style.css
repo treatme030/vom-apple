@@ -1,0 +1,312 @@
+header {
+    width: 100%;
+}
+
+.gnb {
+    position: fixed;
+    width: 100%;
+    height: 44px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.gnb-menu {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gnb-menu li {
+    height: 100%;
+}
+
+.gnb-menu li a {
+    display: inline-block;
+    line-height: 44px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(245, 245, 247);
+    padding: 0 10px;
+}
+
+.gnb-logo a {
+    width: 36px;
+    height: 44px;
+    background-image: url("../img/globalnav_apple_image__cxwwnrj0urau_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.gnb-search a {
+    width: 38px;
+    height: 44px;
+    background-image: url("../img/globalnav_search_image__fca9mfoh8a2q_large.svg");
+    background-repeat: no-repeat;
+    background-position: 10px 0;
+    background-size: 18px 88px;
+}
+
+.gnb-bag a {
+    width: 37px;
+    height: 44px;
+    background-image: url("../img/globalnav_bag_image__bmix8075eg4i_large\ \(1\).svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Main */
+
+/* Banner */
+.banner-wrap {
+    width: 100%;
+    padding-top: 44px;
+}
+
+.banner-text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 46px;
+}
+
+.banner-text a {
+    color: rgb(0, 102, 204);
+}
+
+/* Hero-1 iPhone 12*/
+.hero-1 {
+    width: 100%;
+    height: 692px;
+    background-color: rgb(251, 251, 253);
+    text-align: center;
+    padding-top: 55px;
+    background-image: url("../img/iphone_12_us__fo0stbby242m_largetall\ \(1\).jpg");
+    background-size: auto;
+    background-position: center bottom;
+}
+
+.subhead-black {
+    margin-top: 6px;
+}
+
+.price-info {
+    margin-top: 13.6px;
+    color: rgb(134, 134, 139);
+}
+
+.price-info sup {
+    vertical-align: top;
+}
+
+.hero-link-whitebg {
+    margin-top: 13.65px;
+}
+
+.hero-link-whitebg a {
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: rgb(0, 102, 204);
+    margin: 0 16px;
+}
+
+/* hero-2 iPhone 12 Pro*/
+.hero-2 {
+    width: 100%;
+    height: 692px;
+    background-color: rgb(251, 251, 253);
+    text-align: center;
+    padding-top: 55px;
+    background-image: url("../img/iphone_12_pro_us__e5oyysg4k0ya_largetall\ \(1\).jpg");
+    background-size: auto;
+    background-position: center bottom;
+    margin-top: 12px;
+}
+
+.headline-white {
+    color: rgb(245, 245, 247);
+}
+
+.subhead-white {
+    margin-top: 6px;
+    color: rgb(245, 245, 247);
+}
+
+.hero-link-blackbg {
+    margin-top: 13.65px;
+}
+
+.hero-link-blackbg a {
+    margin: 0 16px;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: rgb(41, 151, 255);
+}
+/* hero-3 iPad Air */
+.hero-3 {
+    width: 100%;
+    height: 692px;
+    background-color: rgb(251, 251, 253);
+    text-align: center;
+    padding-top: 55px;
+    background-image: url("../img/hero__dvsxv8smkkgi_large.jpg");
+    background-size: auto;
+    background-position: center bottom;
+    margin-top: 12px;
+}
+
+/* Promo-1 Apple Watch*/
+.promo-wrap {
+    width: 100%;
+}
+
+.promo {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 12px 6px;
+}
+
+.promo-1 {
+    width: calc(50% - 12px);
+    height: 580px;
+    margin: 0 6px 12px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../img/tile__cauwwcyyn9hy_large\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center bottom;
+    padding-top: 44px;
+}
+
+.promo-subhead-white {
+    font-size: 21px;
+    letter-spacing: 0.336px;
+    line-height: 26px;
+    margin-top: 11px;
+    color: rgb(245, 245, 247);
+}
+
+.promo-link-blackbg {
+    margin-top: 11.9px;
+}
+
+.promo-link-blackbg a {
+    font-size: 17px;
+    margin: 0 14px;
+    line-height: 23px;
+    letter-spacing: 0;
+    color: rgb(41, 151, 255);
+}
+
+.promo-2 {
+    width: calc(50% - 12px);
+    height: 580px;
+    margin: 0 6px 12px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../img/promo_watch_black_unity_collection__glt5v0ra46q2_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 40px;
+}
+
+/* promo-3 MacBook Pro */
+.promo-3 {
+    width: calc(50% - 12px);
+    height: 580px;
+    margin: 0 6px 12px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../img/macbook_pro_13__koscrc0x6wam_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 29px;
+}
+
+.promo-eyebrow {
+    color: rgb(245, 245, 247);
+}
+
+.promo-headline-white {
+    color: rgb(245, 245, 247);
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 2px;
+}
+
+.promo-3 h3 {
+    margin-top: 4px;
+}
+
+/* promo-4 MacBook Air */
+.promo-4 {
+    width: calc(50% - 12px);
+    height: 580px;
+    margin: 0 6px 12px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../img/macbook_air__knzp0i282eyy_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 40px;
+}
+
+.promo-4 h3 {
+    margin-top: 4px;
+}
+
+/* promo-5 Apple 여의도 */
+.promo-5 {
+    width: calc(50% - 12px);
+    height: 580px;
+    margin: 0 6px 12px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../img/promo_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 53px;
+}
+
+.promo-headline-black {
+    color: rgb(29, 29, 31);
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 2px;
+}
+
+.promo-subhead-black {
+    font-size: 21px;
+    letter-spacing: 0.336px;
+    line-height: 26px;
+    margin-top: 11px;
+    color: rgb(29, 29, 31);
+}
+
+.promo-5 h3 {
+    margin-top: 4px;
+}
+
+.promo-link-whitebg {
+    margin: 11.9px;
+}
+
+.promo-link-whitebg a {
+    margin: 0 14px;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0;
+    color: rgb(41, 151, 255);
+}
+
+/* promo-6 School */
+.promo-6 {
+    width: calc(50% - 12px);
+    height: 580px;
+    margin: 0 6px 12px;
+    background-color: rgb(241, 241, 243);
+    background-image: url("../img/promo_6.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 53px;
+}
