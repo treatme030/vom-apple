@@ -134,6 +134,14 @@ h3 {
     -webkit-font-smoothing: antialiased;
 }
 
+h4 {
+    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", sans-serif;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    -webkit-font-smoothing: antialiased;
+}
 p {
     font-size: 17px;
     line-height: 27px;
