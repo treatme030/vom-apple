@@ -684,6 +684,7 @@ footer {
 .footer-legal-links {
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .footer-legal-copy {
