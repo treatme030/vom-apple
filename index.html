@@ -20,7 +20,8 @@
     <body>
         <header>
             <!-- Gnb -->
-            <nav class="gnb">
+            <nav class="gnb" id="gnb-s-wrap">
+                <!-- 2. 변경될 target -->
                 <ul class="gnb-menu">
                     <li class="gnb-logo"><a href=""></a></li>
                     <li><a href="">Mac</a></li>
@@ -32,11 +33,33 @@
                     <li class="gnb-search"><a href=""></a></li>
                     <li class="gnb-bag"><a href=""></a></li>
                 </ul>
-                <ul class="gnb-menu-s">
-                    <li class="hidden-menu"><a href=""></a></li>
-                    <li class="gnb-logo"><a href=""></a></li>
-                    <li class="gnb-bag"><a href=""></a></li>
-                </ul>
+                <div>
+                    <ul class="gnb-menu-s">
+                        <!-- 1. 클릭 이벤트 대상-->
+                        <li class="hidden-menu" id="menubar"><a onclick="menuOpen();" id="menubutton"></a></li>
+                        <a class="x-menu" id="closebutton"></a>
+                        <li class="gnb-logo"><a href=""></a></li>
+                        <li class="gnb-bag"><a href=""></a></li>
+                    </ul>
+                    <div class="ac-box">
+                        <div class="ac-search">
+                            <a href="">
+                                <span class="ac-search-img">
+                                    <img src="img/globalnav_search_image__fca9mfoh8a2q_small.svg" alt="">
+                                </span>
+                                <span>apple.com 검색</span>
+                            </a>
+                        </div>
+                        <ul class="ac-menu">
+                            <li><a href="">Mac</a></li>
+                            <li><a href="">iPad</a></li>
+                            <li><a href="">iPhone</a></li>
+                            <li><a href="">Watch</a></li>
+                            <li><a href="">Music</a></li>
+                            <li><a href="">고객지원</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
@@ -296,5 +319,15 @@
                 </section>
             </div>
         </footer>
+
+    <script>
+        // 3. 실행할 함수
+        function menuOpen() {
+        document.getElementById('gnb-s-wrap').style ="height: 100%; background-color: rgb(0,0,0);";
+        document.getElementById('menubar').style ="display: none;";
+        document.getElementById('closebutton').style ="display: block; position: relative";
+    }
+    </script>
+
     </body>
 </html>
