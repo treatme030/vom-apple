@@ -35,11 +35,12 @@
                 </ul>
                 <div>
                     <ul class="gnb-menu-s">
-                        <!-- 1. 클릭 이벤트 대상-->
-                        <li class="hidden-menu" id="menubar"><a onclick="menuOpen();" id="menubutton"></a></li>
-                        <a class="x-menu" id="closebutton"></a>
+                        <li class="hidden-menu">
+                            <a onclick="menuOpen();" id="menubutton"></a>
+                            <a onclick="menuClose();" id="closebutton"></a>
+                        </li>
                         <li class="gnb-logo"><a href=""></a></li>
-                        <li class="gnb-bag"><a href=""></a></li>
+                        <li class="gnb-bag" id="closebag"><a href=""></a></li>
                     </ul>
                     <div class="ac-box">
                         <div class="ac-search">
@@ -321,11 +322,20 @@
         </footer>
 
     <script>
-        // 3. 실행할 함수
-        function menuOpen() {
+    // Jsp 적용 순서: 이벤트 적용할 요소 선택->변경될 target 지정하여 스크립트에 불러오기->변경할 명령 실행
+
+    //< drop menu open/close event >
+    function menuOpen() {
         document.getElementById('gnb-s-wrap').style ="height: 100%; background-color: rgb(0,0,0);";
-        document.getElementById('menubar').style ="display: none;";
-        document.getElementById('closebutton').style ="display: block; position: relative";
+        document.getElementById('menubutton').style ="display: none;";
+        document.getElementById('closebutton').style ="display: block;";
+        document.getElementById('closebag').style ="visibility: hidden;";
+    }
+    function menuClose() {
+        document.getElementById('gnb-s-wrap').style ="height: 48px; background-color: rgb(0,0,0,0.8);";
+        document.getElementById('menubutton').style ="display: block;";
+        document.getElementById('closebutton').style ="display: none;";
+        document.getElementById('closebag').style ="visibility: visible;";
     }
     </script>
 
