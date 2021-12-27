@@ -1,4 +1,4 @@
-# 🍎 Apple 사이트 따라 만들어보기(https://github.com/treatme030/vom-apple)
+# 🍎 Apple 사이트 따라 만들어보기(https://treatme030.github.io/vom-apple)
 
 ## 랜딩 페이지
 
